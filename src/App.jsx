@@ -12,7 +12,6 @@ import Four04 from "./Components/Head/Header Tabs/Fouro4";
 import SharedLayOut from "./SharedLayOut";
 import SingleAppleProduct from "./Components/SingleAppleProduct";
 
-
 function App() {
   return (
     <>
@@ -20,7 +19,7 @@ function App() {
         <Route path="/" element={<SharedLayOut />}>
           <Route path="/" element={<Home />} />
           <Route path="iphone" element={<Iphone />} />
-          <Route path="/iphone/:product_id" element={<SingleAppleProduct/>} />
+          <Route path="/iphone/:product_id" element={<SingleAppleProduct />} />
           <Route path="mac" element={<Mac />} />
           <Route path="iphone" element={<Iphone />} />
           <Route path="ipad" element={<Ipad />} />
