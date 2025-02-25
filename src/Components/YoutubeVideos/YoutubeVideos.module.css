@@ -2,7 +2,7 @@
   /* margin-top: 20rem;
   justify-content: center;
   display: ; */
-    display: grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
   gap: 10px; /* Adds space between videos */
 }
@@ -31,6 +31,10 @@ row h-100 align-items-center justify-content-center text-center
   mask-composite: intersect;
   animation: l4 1s infinite steps(10);
 }
+.applevideo{
+  border-radius: 50px;
+}
+
 @keyframes l4 {
   to {
     transform: rotate(1turn);
